@@ -1,0 +1,33 @@
+
+
+/*div {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}*/
+body {
+    width: 100vw;
+    margin: 0;
+}
+.box {
+    width: calc(50% + 40px);
+    height: 400px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box::after {
+    content: "Esta é uma mensagem no pseudo-elemento";
+    color: rgb(255, 255, 255);
+}
+
+
+/*Modificar root*/
+/* div {
+    font-size: 32px;
+}
+p {
+    font-size: 1.5rem; /*De acordo com o root.*/
+/*}*/
+/* vw e vh = 1% do viewport.*/

@@ -1,0 +1,22 @@
+/*Um comentário nas CSS!*/
+p{
+   color: blueviolet;
+   font-size: 20px; 
+}
+body{
+    background-color: antiquewhite;
+}
+/*body{
+    background-image: url(https://64.media.tumblr.com/3adb02c60aa7618dab7d6c44ca7b6ba7/d1952a7df841525e-c4/s1280x1920/a281bef95096afe5e043c536dac016693bd3321c.jpg) ;
+    background-position: 15px 40px;
+    background-repeat:no-repeat ;
+    background-attachment: scroll ;
+    background-size: cover;
+}*/
+/*ul{
+    list-style-type: upper-roman;
+    list-style-position:outside ;
+}*/
+ul{
+    list-style-image: url(https://images.vexels.com/media/users/3/147798/isolated/lists/a7d2b7d95b6625f09289319cc308a3dd-heart-made-of-hearts-sticker.png);
+}

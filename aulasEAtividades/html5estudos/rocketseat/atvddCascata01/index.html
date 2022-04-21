@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cascatas</title>
+</head>
+<body>
+    <!--
+         Quanto mais próximo da linha de código no arquivo html, maior a prioridade.
+         É um cálculo matemático, onde cada tipo de seletor e origem do estilo possuem valores a serem considerados.
+
+        Os mais fracos são universal selector, combinators e negation pseudo-class, com o valor de 0. Em seguida, com valor de 1, são os element type selector e pseudo-elements.
+
+        Também temos os classes e attribute selectors, com valor de 10, ou seja, são mais fortes que os anteriores.
+
+        O segundo mais forte, ID selector, com um valor de 100, vence todos os selectors anteriores.
+
+        Por fim, temos o inline, com o valor 1000, quaisquer desses selectors anteriormente citado
+
+        Seu estilo é lido de cima para baixo.
+
+        At-rules = @ está relacionado ao comportomento.
+
+            {
+        /* background properties */
+        background-color: #000;
+        background-image: url(images/bg.gif);
+        background-repeat: no-repeat;
+        background-position: left top;
+
+        /* background shorthand*/
+        background: #000 url(images/bg.gif) no-repeat left top;
+
+        /* font properties */
+        font-style: italic;
+        font-weight: bold;
+        font-size: .8em;
+        line-height: 1.2;
+        font-family: Arial, sans-serif;
+
+        /* font shorthand */ 
+        font: bold italic .8em/1.2 Arial, sans-serif;
+
+
+                Um tipo de valor existente no CSS, é estruturado com um nome seguido de abre e fecha parênteses.
+
+        Recebe um argumento, que são seus valores.
+
+        Um exemplo de função é:
+
+        color: rgb(255,0,100);
+        Vendors prefixes
+
+        São coisas que permitem que browsers adiocionem features a fim de colocar em uso alguma novidade que vemos no CSS.
+
+        Exemplos:
+
+        p {
+            -webkit-background-clip: text; /*Chrome, Safari, iOS e Android*/
+            -moz-background-clip: text; /* Mozilla (Firefox) */
+            -ms-background-clip: text; /* Internet Explorer ou Edge*/
+            -o-background-clip: text; /* Opera */
+
+        Você também pode consultar se a feature pode ser utilizada através dos sites:
+
+        https://ireade.github.io/which-vendor-prefix
+
+        https://caniuse.com
+    }
+    
+    -->
+    <h1>Aprendendo CSS        
+    </h1>
+
+    <p>
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore asperiores, doloremque fugiat voluptatem modi cum. Rerum aspernatur perspiciatis commodi, aperiam nihil sit enim, dicta ipsum ut, nemo in veniam blanditiis.
+    </p>
+    
+</body>
+</html>
