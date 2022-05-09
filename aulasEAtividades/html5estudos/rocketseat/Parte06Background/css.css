@@ -1,0 +1,29 @@
+* {margin:0}
+
+/*header {
+    height: 700px;
+    border: 5px solid rgb(46, 58, 66);
+    padding: 50px;
+
+    
+}*/
+
+main {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: aliceblue;
+    background-image: url(https://cultura.uol.com.br/upload/tvcultura/colunahabitodequadrinhos/20220328105627_cavaleirodalua.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover; /*Ex: contain e cover*/
+    background-origin:border-box; /*A imagem começará  apartir da borda. Ela pode começar também do padding.*/
+    background-clip: border-box; /*Hover over the comando para saber mais.*/
+    background-attachment: fixed;
+
+    /*Shorthand para todas as configurações passadas:*/
+    background: radial-gradient(rgb(140, 228, 235),rgb(255, 80, 80)) aliceblue url(https://cultura.uol.com.br/upload/tvcultura/colunahabitodequadrinhos/20220328105627_cavaleirodalua.jpg) no-repeat center top / cover border-box content-box fixed;/*O comando size precisa ser separado com uma barra. Se fosse somente um content-box ele seria configurado para os dois background.*/
+    background:radial-gradient(rgb(140, 228, 235),rgb(255, 80, 80)) ; /*Linear(possui degrees) e gradient.
+    Você pode usar múltiplis backgrounds através das vírgulas.*/
+
+}
+
