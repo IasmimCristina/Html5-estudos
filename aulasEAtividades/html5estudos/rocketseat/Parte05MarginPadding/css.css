@@ -1,0 +1,31 @@
+/* Padding e Margin
+Ordem: top, right, bottom, left.
+ou
+3 valores: top, laterais, bottom
+ou
+2 valores: top-bottom, laterais
+1 valor: todos.
+Padding poderá causar diferença na largura do elemento.
+Padding é acolchoamento.
+
+Para border: style --> width --> color
+*/
+* {
+    box-sizing: border-box; /*Não funcionou!*/
+}
+div, section {
+    border: 10px solid #992b2b; /*Os 15px acicionam ao tamanho da caixa sem o box-sizing.*/
+    padding: 10px 10px 8px 15px;    
+    margin: 0 2px; /*Nas laterais, não há margin collapsing.*/
+    outline: #33a7ca 5px solid; /*Não altera o valor da caixa, não á possibilidade de mudança individual. Ajuda a acessibilidade.*/
+    
+    
+    
+}
+div {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-top: 8px; /*Houve margin collapsing, elas se juntaram para obter o mesmo resultado: 8 ou o maior número.*/
+}

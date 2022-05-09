@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box; /*As CSS farão os cálculos a partir da borda.*/
+}
+
+div {
+    width: 175px;    
+    height: 150px;
+    border: 3px solid red;
+    margin: 40px;
+    padding: 0 20px;  
+    box-sizing: border-box; 
+    /*display: inline*/
+   
+
+
+}
+
+span {
+    margin: 80px; /*inline: Somente vai para as laterais.*/
+    width: 175px;
+    height: 100px;
+    border: 3px solid green;
+     /*display: block*/
+}
