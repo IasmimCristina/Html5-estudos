@@ -1,0 +1,46 @@
+body {
+    
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal {
+    background-color: rgb(203, 255, 251);
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+#missao {
+    font-size: 35px;
+}
+em strong {
+    color: rgb(132, 0, 255);
+}
+
+ul {
+    display: inline-block; /*Ele apenas ocupa o seu tamanho.*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%; 
+}
+
+.itens {
+    font-style: italic;
+    color: rgb(132, 0, 255);
+}
+
+.beneficios {    
+    padding: 20px;
+}
+
+.imagemBeneficios {
+    width: 50%;
+}
