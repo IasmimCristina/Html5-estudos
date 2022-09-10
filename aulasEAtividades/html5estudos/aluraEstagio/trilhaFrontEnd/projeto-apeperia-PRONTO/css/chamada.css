@@ -31,3 +31,9 @@
 .chamada__botao {
     width: 100%;
 }
+/* Min-width significa a partir de uma determinada largura. Max-width significa até uma determinada largura.  */
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
